@@ -1,0 +1,7 @@
+total_sales = 0
+daily_sales = 0
+for day in ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"):
+    daily_sales = input("What was your sales for " + day + "?: ")
+    total_sales = total_sales + float(daily_sales)
+print("The total sales for the week is: " + str(format(total_sales, '.2f')))
+print("The average sales for the week is: " + str(format((total_sales/7), '.2f')))
