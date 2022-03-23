@@ -17,20 +17,20 @@ class Dice:  # note class names are capitalized
         self.side_up = '1'
 
         # TODO change toss() to roll()
-    def roll(self):
+    def roll(self):  # class methods
         # TODO get a random value and set side_up for the 6 sides of the dice
-        dicenum = random.randint(0, 6)
-        if dicenum == 0:
+        dice_num = random.randint(0, 6)
+        if dice_num == 0:
             self.side_up = '0'
-        elif dicenum == 1:
+        elif dice_num == 1:
             self.side_up = '1'
-        elif dicenum == 2:
+        elif dice_num == 2:
             self.side_up = '2'
-        elif dicenum == 3:
+        elif dice_num == 3:
             self.side_up = '3'
-        elif dicenum == 4:
+        elif dice_num == 4:
             self.side_up = '4'
-        elif dicenum == 5:
+        elif dice_num == 5:
             self.side_up = '5'
         else:
             self.side_up = '6'
