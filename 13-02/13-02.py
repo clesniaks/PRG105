@@ -1,7 +1,5 @@
 import tkinter
 
-counts = 0
-
 
 class ShowInfo:
     def __init__(self, counts):
@@ -30,4 +28,4 @@ class ShowInfo:
             self.count = 1
 
 
-name_and_address = ShowInfo(counts)
+name_and_address = ShowInfo(0)
